@@ -1,1 +1,1 @@
-web: node room.ejs
+web: node server,js

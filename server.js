@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const server = require('http').Server(app)
 const io = require('socket.io')(server)
-var port = process.env.Port || 3000;
+var port = process.env.PORT || 3000;
 const { v4: uuidV4 } = require('uuid')
 
 
